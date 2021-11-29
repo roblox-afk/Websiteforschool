@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Website Testing</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="https://kit.fontawesome.com/a44cc5cef6.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html">
+                    <img src="image/logo.png"
+                    width="350px"
+                    height="150px"
+                    >
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">TESTING</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-frontpage">
+                <h1>Welcome to Farming Simulator 22</h1>
+                <p>Farming Simulator 22 aka FS22 is a Farming Gaming based on real life.</p>
+
+                <a href="" class="hero-btn">Visit Us to Know More</a>
+            </div>
+        </section>
+
+        <!----- Information ------>
+
+        <section class="info">
+            <h1>Information</h1>
+            <p>Here is some Information about Farming Simulator 22</p>
+
+            <row class="row">
+                <div class="info-col">
+                    <h3>What can you do in Farming Simulator 22?</h3>
+                    <p>In Farming Simulator 22 you can farm crops, harvest grapes and olives, you can also build your own farm with mods or the assets in the game.</p>
+                </div>
+                <div class="info-col">
+                    <h3>What can you do in Farming Simulator 22?</h3>
+                    <p>In Farming Simulator 22 you can farm crops, harvest grapes and olives, you can also build your own farm with mods or the assets in the game.</p>
+                </div>
+                <div class="info-col">
+                    <h3>What can you do in Farming Simulator 22?</h3>
+                    <p>In Farming Simulator 22 you can farm crops, harvest grapes and olives, you can also build your own farm with mods or the assets in the game.</p>
+                </div>
+            </row>
+        </section>
+    </body>
+
+            <!------JavaScript for toggle Menu Small Device ------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    
+        function showMenu(){
+          navLinks.style.right = "0";
+    }
+        function hideMenu(){
+          navLinks.style.right = "-200px";
+    }
+    
+    </script>
+    
+        </body>
+</html>
