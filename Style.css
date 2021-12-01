@@ -175,3 +175,11 @@ h3{
         flex-direction: column;
     }
 }
+
+/*---- footer ----*/
+
+.footer{
+    text-align: center;
+    text-decoration: none;
+    
+}
