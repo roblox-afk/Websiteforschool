@@ -47,7 +47,7 @@ nav{
 }
 .nav-links ul li:hover::after{
     width: 100%;
-
+    color: rgb(200, 0,0);
 }
 .text-frontpage{
     width: 90%;
