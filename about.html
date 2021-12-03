@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Website Testing</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script src="https://kit.fontawesome.com/09dae27db6.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html">
+                    <img src="image/logo.png"
+                    width="350px"
+                    height="150px"
+                    >
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">MODS</a></li> 
+                        <li><a href="">VEHICLES</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-frontpage">
+                <h1>About</h1>
+                <p>This is the about page.</p>
+
+                <a href="" class="hero-btn">Visit Us to Know More</a>
+            </div>
+        </section>
+
+        <!----- footer ----->
+
+        <section class="footer">
+            <h4><i class="fab fa-discord"></i></h4>
+            <p>Made by Non-Stop Studio</p>
+        </section>
+
+
+
+    </body>
+
+            <!------JavaScript for toggle Menu Small Device ------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    
+        function showMenu(){
+          navLinks.style.right = "0";
+    }
+        function hideMenu(){
+          navLinks.style.right = "-200px";
+    }
+    
+    </script>
+    
+        </body>
+</html>
